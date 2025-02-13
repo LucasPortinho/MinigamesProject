@@ -1,0 +1,16 @@
+.letter-spacing {
+    border: 1px solid white;
+    padding: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    transition: all ease-in-out 300ms; 
+    border-radius: 5px;
+}
+
+.marked {
+    transform: scale(1.1);
+    border-bottom: 4px solid yellow;
+    box-shadow: 0px 0px 1px 1px rgba(251, 255, 0, 0.418);
+}

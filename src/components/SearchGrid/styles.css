@@ -1,0 +1,10 @@
+.search-grid {
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(10, 40px);
+    gap: 5px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+}

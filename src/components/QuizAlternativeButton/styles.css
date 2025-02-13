@@ -1,0 +1,18 @@
+.alternative-button {
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid white;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all ease-out 300ms;
+    border-radius: 10px; 
+}
+
+.alternative-button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, rgba(128, 128, 128, 0.1), rgba(128, 128, 128, 0.2)); 
+}

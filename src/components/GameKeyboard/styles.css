@@ -1,0 +1,20 @@
+.game-keyboard {
+    display: grid;
+    grid-template-columns: repeat(13, auto); 
+    gap: 5px; 
+    width: 70%;
+    margin-top: 100px;
+}
+
+.keyboard-button {
+    cursor: pointer;
+    padding: 3px;
+    height: 50px;
+    border: 1px solid white; 
+    border-radius: 10px;
+    transition: all ease-in-out 250ms;
+}
+
+.keyboard-button:hover {
+    transform: scale(1.1);
+}

@@ -1,0 +1,13 @@
+.hash {
+    font-size: 50px;
+    letter-spacing: 3px;
+    margin-top: 80px;
+}
+
+.hangman-game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}

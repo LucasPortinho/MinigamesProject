@@ -1,0 +1,10 @@
+.search-letter {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all ease-in-out 250ms;
+}

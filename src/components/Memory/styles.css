@@ -1,0 +1,11 @@
+.memory-grid {
+    align-self: center;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 6px;
+    width: 160px;
+    margin-top: 150px;
+    cursor: pointer;
+}
+

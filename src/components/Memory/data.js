@@ -1,0 +1,18 @@
+export const initialCards = [
+    {content: '🍎', isCorrect: false, revealed: false},
+    {content: '🍎', isCorrect: false, revealed: false},
+    {content: '🍌', isCorrect: false, revealed: false},
+    {content: '🍌', isCorrect: false, revealed: false},
+    {content: '🍇', isCorrect: false, revealed: false},
+    {content: '🍇', isCorrect: false, revealed: false},
+    {content: '🍉', isCorrect: false, revealed: false},
+    {content: '🍉', isCorrect: false, revealed: false},
+    {content: '🐶', isCorrect: false, revealed: false},
+    {content: '🐶', isCorrect: false, revealed: false},
+    {content: '🐱', isCorrect: false, revealed: false},
+    {content: '🐱', isCorrect: false, revealed: false},
+    {content: '🚗', isCorrect: false, revealed: false},
+    {content: '🚗', isCorrect: false, revealed: false},
+    {content: '✈️', isCorrect: false, revealed: false},
+    {content: '✈️', isCorrect: false, revealed: false},
+]

@@ -1,0 +1,24 @@
+.memory-card, .back-card {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    border-radius: 8px;
+}
+
+.back-card {
+    width: 100%;
+    border: 1px solid white;
+    cursor: not-allowed;
+}
+
+.correct {
+    border: 1px solid green;
+    color: green;
+}
+
+.memory-card:hover {
+    transform: scale(1.1);
+}

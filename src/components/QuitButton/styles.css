@@ -1,0 +1,13 @@
+.quit-button {
+    position: absolute;
+    border: none;
+    top: 0;
+    left: 0;
+    margin: 30px;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.quit-button:hover {
+    transform: scale(1.35);
+}

@@ -1,0 +1,17 @@
+.confirm-button {
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: none;
+    background-color: #D3AD69;
+    padding: 8px;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+    margin-bottom: 20px;
+}
+
+.confirm-button:hover {
+    transform: scale(1.07);
+}

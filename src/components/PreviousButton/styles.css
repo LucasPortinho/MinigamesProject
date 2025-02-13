@@ -1,0 +1,13 @@
+.previous-button {
+    position: absolute;
+    border: none;
+    left: 0;
+    top: 45%;
+    margin: 30px;
+    cursor: pointer;
+    transition: all ease-in-out 300ms;
+}
+
+.previous-button:hover {
+    transform: scale(1.35);
+}

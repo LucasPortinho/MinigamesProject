@@ -1,0 +1,24 @@
+.buttons-flex {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.buttons-flex button {
+    display: flex;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.enter {
+    width: 70%;
+}
+
+.backspace {
+    width: 30%;
+}
