@@ -13,6 +13,7 @@ export const Quiz = () => {
     const questions = useRef(null)
     const [id, setId] = useState(0)
     const correctCounter = useRef(0)
+    const counter = useRef(0)
     const [selected, setSelected] = useState(false)
 
     useEffect(() => {
@@ -100,20 +101,25 @@ export const Quiz = () => {
             correctCounter.current += 1
         }
 
+        counter.current += 1
+
         setTimeout(() => {
             handleNext()
         }, 300);
     }
 
     const handleNext = () => {
-        if (id >= questions.current.data.length - 1) {
+        if (counter.current >= questions.current.data.length) {
             endGame(`You finished the quiz and answered ${correctCounter.current} questions correctly!`)
             quizDispatch({type: actions.FINISH_CURRENT, payload: questions.current.theme})
             setSelected(false)
             setId(0)
             correctCounter.current = 0
+            counter.current = 0
             return
         }
+
+        if (id >= questions.current.data.length - 1) return
 
         setId(i => i + 1)
 
