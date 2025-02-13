@@ -72,7 +72,12 @@ export const Quiz = () => {
 
     const endGame = (msg) => {
         alert(msg)
-        // Finish game
+        
+        quizDispatch({type: actions.FINISH_CURRENT, payload: questions.current.theme})
+        setSelected(false)
+        setId(0)
+        correctCounter.current = 0
+        counter.current = 0
     }
 
     const handleClick = (e, option) => {
@@ -111,11 +116,6 @@ export const Quiz = () => {
     const handleNext = () => {
         if (counter.current >= questions.current.data.length) {
             endGame(`You finished the quiz and answered ${correctCounter.current} questions correctly!`)
-            quizDispatch({type: actions.FINISH_CURRENT, payload: questions.current.theme})
-            setSelected(false)
-            setId(0)
-            correctCounter.current = 0
-            counter.current = 0
             return
         }
 
