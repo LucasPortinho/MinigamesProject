@@ -24,7 +24,7 @@ Implements useState and useEffect for dynamic UI updates.
 
 Designed with vanilla JavaScript for core game logic.
 
-Fully responsive and works on desktop and mobile devices
+Fully responsive and works on desktop and mobile devices (Media-queries not finished yet)
 
 ## 🛠️ Technologies Used
 
@@ -37,3 +37,6 @@ JavaScript (ES6+)
 CSS (Styled Components or plain CSS)
 
 HTML5
+
+## Link
+https://melodic-meringue-155b39.netlify.app/
