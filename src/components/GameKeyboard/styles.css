@@ -18,3 +18,10 @@
 .keyboard-button:hover {
     transform: scale(1.1);
 }
+
+@media (max-width: 600px) {
+    .game-keyboard {
+        grid-template-columns: repeat(10, auto); 
+        width: 80%;
+    }
+} 

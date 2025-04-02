@@ -8,3 +8,11 @@
     border: 1px solid white;
     border-radius: 10px;
 }
+
+@media (max-width: 600px) {
+    .search-grid {
+        grid-template-columns: repeat(10, 30px);
+        border: none;
+        max-height: 80%;
+    }
+}

@@ -1,6 +1,6 @@
 .game-menu {
     align-self: center;
-    width: 18%;
+    width: 50%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px
